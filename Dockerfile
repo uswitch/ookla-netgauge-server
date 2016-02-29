@@ -12,6 +12,6 @@ RUN wget http://install.speedtest.net/ooklaserver/ooklaserver.sh && \
     ./ooklaserver.sh install -f
 
 # Expose the default port
-EXPOSE 8080
+EXPOSE 8080 5060
 
 CMD ["./OoklaServer", "start"]
